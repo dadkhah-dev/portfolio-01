@@ -686,7 +686,7 @@ export default function Home() {
               </div>
               <div className="row">
                 {info.blog.map((item, index1) => (
-                  <div className="col s12 m12 l4">
+                  <div key={index1} className="col s12 m12 l4">
                     <div className="card">
                       <div className="card-image">
                         <img src={item.Image} alt="" />

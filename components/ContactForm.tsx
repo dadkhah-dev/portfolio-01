@@ -5,11 +5,11 @@ import * as info from "@/constants/index";
 
 const ContactForm = () => {
   const handleClick = () => {
-    $("#cform").submit();
+    //$("#cform").submit();
   };
 
   return (
-    <form id="cform" method="post" api={info.contactMe.ContactFormApi}>
+    <form id="cform" method="post" action={info.contactMe.ContactFormApi}>
       <h5>Write a message:</h5>
       <div className="row">
         <div className="input-field col s12">

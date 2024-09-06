@@ -96,7 +96,7 @@ $(function () {
     },
     success: "valid",
     submitHandler: function () {
-      var url = $("#cform").attr("api");
+      var url = $("#cform").attr("action");
 
       $.ajax({
         url: url,
